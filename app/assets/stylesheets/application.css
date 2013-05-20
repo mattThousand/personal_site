@@ -11,3 +11,77 @@
  *= require_self
  *= require_tree .
  */
+
+
+
+
+/* @license
+ * MyFonts Webfont Build ID 2559786, 2013-05-19T20:57:07-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Code Pro Light Demo by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/code-pro/light-demo/
+ * Copyright: Copyright (c) 2010 by Svetoslav Simov. All rights reserved.
+ * Licensed pageviews: Unlimited
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2559786
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+font-family: 'Josefin Sans', sans-serif !important;
+font-weight: 400;
+font-style: normal;
+color: #fff !important;
+text-rendering: optimizeLegibility;
+line-height: 1.1;
+margin-bottom: 14px;
+margin-top: 14px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 44px !important;
+	display: block;
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+p {
+	font-size: 22px;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	margin-bottom: 7%;
+	line-height: 150%
+}
+
+.row .mobile {
+	width:25% !important;
+	float:left;padding:0 0
+}
+
+div#bio {
+	background-color: rgba(241,90,36,0.75);
+	min-width: 645px;
+}
+
+.centered {
+	width: 55%;
+	float: none;
+	margin: 0 auto;
+}
+
