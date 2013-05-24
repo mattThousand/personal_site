@@ -50,8 +50,10 @@ margin-top: 14px;
 
 h1 {
 	font-weight: bold;
-	font-size: 44px !important;
+	font-size: 44px;
 	display: block;
+	text-align: center;
+	margin: 20% 0 3%;
 	-webkit-margin-before: 0.67em;
 	-webkit-margin-after: 0.67em;
 	-webkit-margin-start: 0px;
@@ -69,8 +71,8 @@ p {
 	line-height: 150%
 }
 
-.row .mobile {
-	width:25% !important;
+.row mobile {
+	width:25%;
 	float:left;padding:0 0
 }
 
@@ -85,3 +87,18 @@ div#bio {
 	margin: 10% auto;
 }
 
+div#recent h1 {
+	margin: 20% 0 3%;
+}
+
+.centered-logos {
+	width: 70%;
+	float: none;
+	margin: 10% auto;
+}
+
+.logos div a {
+	margin: 10% 0;
+	width: 33.3%;
+	float: right;
+}
