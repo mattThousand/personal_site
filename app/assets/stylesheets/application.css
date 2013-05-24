@@ -73,12 +73,19 @@ p {
 
 .row mobile {
 	width:25%;
-	float:left;padding:0 0
+	float:left;
 }
 
 div#bio {
 	background-color: #3ea5ce;
 	min-width: 645px;
+	width: 45%;
+	float: right;
+}
+
+div#portrait {
+	width: 55%;
+	float: left;
 }
 
 .centered {
@@ -102,3 +109,4 @@ div#recent h1 {
 	width: 33.3%;
 	float: right;
 }
+
