@@ -36,6 +36,10 @@
 */
 
 
+body {
+	padding:0;
+	margin: 0;
+}
 
 h1, h2, h3, h4, h5, h6, p {
 font-family: 'Josefin Sans', sans-serif !important;
@@ -77,19 +81,26 @@ p {
 }
 
 div#bio {
-	background-color: #3ea5ce;
-	min-width: 645px;
+	background-color: #E9AF32;
 	width: 45%;
+	height: auto;
 	float: right;
 }
 
 div#portrait {
 	width: 55%;
+	height: auto;
 	float: left;
+	position:fixed;
+}
+
+img.half {
+	width: auto;
+	height: auto;
 }
 
 .centered {
-	width: 55%;
+	width: 65%;
 	float: none;
 	margin: 10% auto;
 }
@@ -108,5 +119,38 @@ div#recent h1 {
 	margin: 10% 0;
 	width: 33.3%;
 	float: right;
+}
+
+img {
+	width: 100%;
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	div#bio {
+		background-color: #E9AF32;
+		width: 100%;
+	}
+
+	div#portrait {
+		width: 100%;
+		height: auto;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
 }
 
