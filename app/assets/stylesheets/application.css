@@ -45,11 +45,16 @@ h1, h2, h3, h4, h5, h6, p {
 font-family: 'Josefin Sans', sans-serif !important;
 font-weight: 400;
 font-style: normal;
-color: #fff !important;
+color: #2C0402 !important;
 text-rendering: optimizeLegibility;
 line-height: 1.1;
 margin-bottom: 14px;
 margin-top: 14px;
+}
+
+hr {
+	border-top: 1px solid #2C0402 !important;
+	border-bottom: 1px solid #2C0402 !important;
 }
 
 h1 {
@@ -110,15 +115,15 @@ div#recent h1 {
 }
 
 .centered-logos {
-	width: 70%;
+	width: 100%;
 	float: none;
 	margin: 10% auto;
 }
 
 .logos div a {
-	margin: 10% 0;
-	width: 33.3%;
-	float: right;
+	margin: 10px 0 40px 10%;
+	width: 20%;
+	float: left;
 }
 
 img {
