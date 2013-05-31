@@ -129,7 +129,7 @@ img {
 
 
 /* Landscape phone to portrait tablet */
-@media (max-aspect-ratio: 1612/966) {
+@media (max-aspect-ratio: 1135/679) {
 	div#bio {
 		background-color: #E9AF32;
 		width: 100%;
