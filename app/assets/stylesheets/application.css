@@ -73,12 +73,12 @@ p {
 div#bio {
 	background-color: #E9AF32;
 	width: 45%;
+	height: auto;
 	float: right;
 }
 
 div#portrait-desktop {
 	width: 55%;
-	height: auto;
 	float: left;
 	position:fixed;
 }
