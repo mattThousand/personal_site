@@ -79,6 +79,7 @@ div#bio {
 
 div#portrait-desktop {
 	width: 55%;
+	height: auto;
 	float: left;
 	position:fixed;
 }
