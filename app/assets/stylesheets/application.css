@@ -121,7 +121,7 @@ img {
 
 
 /* Portrait tablet to landscape, desktop, and large desktop */
-@media (min-aspect-ratio: 1120/680) {
+@media (min-aspect-ratio: 1181/679) {
 	div#portrait-mobile {
 		display: none;
 	}
